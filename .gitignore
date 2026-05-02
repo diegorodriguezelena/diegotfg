@@ -1,0 +1,21 @@
+# Claude Code guidance (machine-local)
+CLAUDE.md
+
+# Dataset (large binary — distribute separately)
+data/raw/*.dta
+data/raw/*.csv
+data/raw/*.sav
+
+# R session artefacts
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj.user
+
+# Shiny cache
+rsconnect/
+
+# Outputs (generated — not committed)
+outputs/figures/*
+!outputs/figures/.gitkeep
+.positai
